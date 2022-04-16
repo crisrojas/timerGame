@@ -16,6 +16,8 @@
 		5414FE5A280B7265009DE57D /* TimerGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5414FE59280B7265009DE57D /* TimerGameTests.swift */; };
 		5414FE64280B7265009DE57D /* TimerGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5414FE63280B7265009DE57D /* TimerGameUITests.swift */; };
 		5414FE66280B7265009DE57D /* TimerGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5414FE65280B7265009DE57D /* TimerGameUITestsLaunchTests.swift */; };
+		5414FE77280B7F4F009DE57D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5414FE76280B7F4F009DE57D /* Colors.xcassets */; };
+		5414FE7D280B82D7009DE57D /* Generated in Resources */ = {isa = PBXBuildFile; fileRef = 5414FE7C280B82D7009DE57D /* Generated */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		5414FE5F280B7265009DE57D /* TimerGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5414FE63280B7265009DE57D /* TimerGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerGameUITests.swift; sourceTree = "<group>"; };
 		5414FE65280B7265009DE57D /* TimerGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5414FE73280B7E5A009DE57D /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		5414FE76280B7F4F009DE57D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		5414FE7C280B82D7009DE57D /* Generated */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Generated; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				5414FE42280B7262009DE57D /* TimerGame */,
+				5414FE73280B7E5A009DE57D /* swiftgen.yml */,
+				5414FE76280B7F4F009DE57D /* Colors.xcassets */,
+				5414FE47280B7265009DE57D /* Assets.xcassets */,
 				5414FE58280B7265009DE57D /* TimerGameTests */,
 				5414FE62280B7265009DE57D /* TimerGameUITests */,
 				5414FE41280B7262009DE57D /* Products */,
@@ -98,12 +106,11 @@
 		5414FE42280B7262009DE57D /* TimerGame */ = {
 			isa = PBXGroup;
 			children = (
-				5414FE43280B7262009DE57D /* TimerGameApp.swift */,
-				5414FE45280B7262009DE57D /* ContentView.swift */,
-				5414FE47280B7265009DE57D /* Assets.xcassets */,
-				5414FE4C280B7265009DE57D /* Persistence.swift */,
-				5414FE4E280B7265009DE57D /* TimerGame.xcdatamodeld */,
+				5414FE7A280B805F009DE57D /* Data */,
+				5414FE7C280B82D7009DE57D /* Generated */,
 				5414FE49280B7265009DE57D /* Preview Content */,
+				5414FE75280B7F25009DE57D /* Resources */,
+				5414FE79280B8052009DE57D /* Screens */,
 			);
 			path = TimerGame;
 			sourceTree = "<group>";
@@ -133,6 +140,47 @@
 			path = TimerGameUITests;
 			sourceTree = "<group>";
 		};
+		5414FE75280B7F25009DE57D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5414FE78280B8048009DE57D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5414FE43280B7262009DE57D /* TimerGameApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5414FE79280B8052009DE57D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5414FE78280B8048009DE57D /* App */,
+				5414FE7B280B806E009DE57D /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5414FE7A280B805F009DE57D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5414FE4C280B7265009DE57D /* Persistence.swift */,
+				5414FE4E280B7265009DE57D /* TimerGame.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5414FE7B280B806E009DE57D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5414FE45280B7262009DE57D /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +191,7 @@
 				5414FE3C280B7262009DE57D /* Sources */,
 				5414FE3D280B7262009DE57D /* Frameworks */,
 				5414FE3E280B7262009DE57D /* Resources */,
+				5414FE72280B7DCB009DE57D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -237,6 +286,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5414FE7D280B82D7009DE57D /* Generated in Resources */,
+				5414FE77280B7F4F009DE57D /* Colors.xcassets in Resources */,
 				5414FE4B280B7265009DE57D /* Preview Assets.xcassets in Resources */,
 				5414FE48280B7265009DE57D /* Assets.xcassets in Resources */,
 			);
@@ -257,6 +308,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5414FE72280B7DCB009DE57D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${PROJECT_DIR}/swiftgen/bin/swiftgen\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5414FE3C280B7262009DE57D /* Sources */ = {
