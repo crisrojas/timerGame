@@ -18,6 +18,7 @@
 		5414FE66280B7265009DE57D /* TimerGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5414FE65280B7265009DE57D /* TimerGameUITestsLaunchTests.swift */; };
 		5414FE77280B7F4F009DE57D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5414FE76280B7F4F009DE57D /* Colors.xcassets */; };
 		5414FE7D280B82D7009DE57D /* Generated in Resources */ = {isa = PBXBuildFile; fileRef = 5414FE7C280B82D7009DE57D /* Generated */; };
+		54F0D6E92811DDAC00C2C465 /* Templates in Resources */ = {isa = PBXBuildFile; fileRef = 54F0D6E82811DDAC00C2C465 /* Templates */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		5414FE73280B7E5A009DE57D /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		5414FE76280B7F4F009DE57D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		5414FE7C280B82D7009DE57D /* Generated */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Generated; sourceTree = SOURCE_ROOT; };
+		54F0D6E82811DDAC00C2C465 /* Templates */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Templates; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		5414FE42280B7262009DE57D /* TimerGame */ = {
 			isa = PBXGroup;
 			children = (
+				54F0D6E82811DDAC00C2C465 /* Templates */,
 				5414FE7A280B805F009DE57D /* Data */,
 				5414FE7C280B82D7009DE57D /* Generated */,
 				5414FE49280B7265009DE57D /* Preview Content */,
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5414FE7D280B82D7009DE57D /* Generated in Resources */,
+				54F0D6E92811DDAC00C2C465 /* Templates in Resources */,
 				5414FE77280B7F4F009DE57D /* Colors.xcassets in Resources */,
 				5414FE4B280B7265009DE57D /* Preview Assets.xcassets in Resources */,
 				5414FE48280B7265009DE57D /* Assets.xcassets in Resources */,
@@ -498,6 +502,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TimerGame/Preview Content\"";
+				DEVELOPMENT_TEAM = V73WZ9Y4HH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -526,6 +531,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TimerGame/Preview Content\"";
+				DEVELOPMENT_TEAM = V73WZ9Y4HH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

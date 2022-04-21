@@ -3,5 +3,5 @@ xcassets:
     - Assets.xcassets
     - Colors.xcassets
   outputs:
-    - templateName: swift5
+    - templatePath: /Users/crisrojas/dev/Projects/TimerGame/Templates/assets.stencil.md
       output: Generated/Assets.swift
