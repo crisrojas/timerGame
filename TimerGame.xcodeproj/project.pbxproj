@@ -19,6 +19,7 @@
 		5414FE77280B7F4F009DE57D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5414FE76280B7F4F009DE57D /* Colors.xcassets */; };
 		5414FE7D280B82D7009DE57D /* Generated in Resources */ = {isa = PBXBuildFile; fileRef = 5414FE7C280B82D7009DE57D /* Generated */; };
 		54F0D6E92811DDAC00C2C465 /* Templates in Resources */ = {isa = PBXBuildFile; fileRef = 54F0D6E82811DDAC00C2C465 /* Templates */; };
+		54F0D6F42811E04D00C2C465 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54F0D6F62811E04D00C2C465 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		5414FE76280B7F4F009DE57D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		5414FE7C280B82D7009DE57D /* Generated */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Generated; sourceTree = SOURCE_ROOT; };
 		54F0D6E82811DDAC00C2C465 /* Templates */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Templates; sourceTree = SOURCE_ROOT; };
+		54F0D6F52811E04D00C2C465 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +89,6 @@
 			children = (
 				5414FE42280B7262009DE57D /* TimerGame */,
 				5414FE73280B7E5A009DE57D /* swiftgen.yml */,
-				5414FE76280B7F4F009DE57D /* Colors.xcassets */,
-				5414FE47280B7265009DE57D /* Assets.xcassets */,
 				5414FE58280B7265009DE57D /* TimerGameTests */,
 				5414FE62280B7265009DE57D /* TimerGameUITests */,
 				5414FE41280B7262009DE57D /* Products */,
@@ -108,12 +108,12 @@
 		5414FE42280B7262009DE57D /* TimerGame */ = {
 			isa = PBXGroup;
 			children = (
-				54F0D6E82811DDAC00C2C465 /* Templates */,
 				5414FE7A280B805F009DE57D /* Data */,
 				5414FE7C280B82D7009DE57D /* Generated */,
 				5414FE49280B7265009DE57D /* Preview Content */,
-				5414FE75280B7F25009DE57D /* Resources */,
+				54F0D6F72811E52600C2C465 /* Resources */,
 				5414FE79280B8052009DE57D /* Screens */,
+				54F0D6E82811DDAC00C2C465 /* Templates */,
 			);
 			path = TimerGame;
 			sourceTree = "<group>";
@@ -141,13 +141,6 @@
 				5414FE65280B7265009DE57D /* TimerGameUITestsLaunchTests.swift */,
 			);
 			path = TimerGameUITests;
-			sourceTree = "<group>";
-		};
-		5414FE75280B7F25009DE57D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		5414FE78280B8048009DE57D /* App */ = {
@@ -182,6 +175,16 @@
 				5414FE45280B7262009DE57D /* ContentView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		54F0D6F72811E52600C2C465 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				54F0D6F62811E04D00C2C465 /* Localizable.strings */,
+				5414FE76280B7F4F009DE57D /* Colors.xcassets */,
+				5414FE47280B7265009DE57D /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5414FE7D280B82D7009DE57D /* Generated in Resources */,
+				54F0D6F42811E04D00C2C465 /* Localizable.strings in Resources */,
 				54F0D6E92811DDAC00C2C465 /* Templates in Resources */,
 				5414FE77280B7F4F009DE57D /* Colors.xcassets in Resources */,
 				5414FE4B280B7265009DE57D /* Preview Assets.xcassets in Resources */,
@@ -376,6 +380,17 @@
 			targetProxy = 5414FE60280B7265009DE57D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54F0D6F62811E04D00C2C465 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54F0D6F52811E04D00C2C465 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5414FE67280B7265009DE57D /* Debug */ = {

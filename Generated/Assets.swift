@@ -9,13 +9,13 @@ import UIKit
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
 internal extension Color {
     static let accentColor = Color("AccentColor")
-    static let brown = Color("brown")
+    static let brownishl = Color("brownishl")
 }
 
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
 internal extension UIColor {
     static let accentColor = UIColor(named: "AccentColor")
-    static let brown = UIColor(named: "brown")
+    static let brownishl = UIColor(named: "brownishl")
 }
 
 // MARK: - Images Extensions

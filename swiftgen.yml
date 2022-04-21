@@ -1,7 +1,13 @@
+strings:
+  inputs:
+    - TimerGame/Resources/en.lproj
+  outputs:
+    - templateName: structured-swift5
+      output: Generated/Strings.swift
 xcassets:
   inputs:
-    - Assets.xcassets
-    - Colors.xcassets
+    - TimerGame/Resources/Assets.xcassets
+    - TimerGame/Resources/Colors.xcassets
   outputs:
     - templatePath: /Users/crisrojas/dev/Projects/TimerGame/Templates/assets.stencil.md
       output: Generated/Assets.swift
