@@ -22,6 +22,7 @@
 		54F0D6F42811E04D00C2C465 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54F0D6F62811E04D00C2C465 /* Localizable.strings */; };
 		54F0D6FA2812ACD300C2C465 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 54F0D6F92812ACD300C2C465 /* ComposableArchitecture */; };
 		54F0D6FD2812AD1000C2C465 /* SwiftUItilities in Frameworks */ = {isa = PBXBuildFile; productRef = 54F0D6FC2812AD1000C2C465 /* SwiftUItilities */; };
+		54F0D7002812AE8200C2C465 /* TimerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0D6FF2812AE8200C2C465 /* TimerScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		5414FE7C280B82D7009DE57D /* Generated */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Generated; sourceTree = SOURCE_ROOT; };
 		54F0D6E82811DDAC00C2C465 /* Templates */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Templates; sourceTree = SOURCE_ROOT; };
 		54F0D6F52811E04D00C2C465 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		54F0D6FF2812AE8200C2C465 /* TimerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 		5414FE79280B8052009DE57D /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				54F0D6FE2812AE6100C2C465 /* Timer */,
 				5414FE78280B8048009DE57D /* App */,
 				5414FE7B280B806E009DE57D /* Main */,
 			);
@@ -189,6 +192,14 @@
 				5414FE47280B7265009DE57D /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		54F0D6FE2812AE6100C2C465 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				54F0D6FF2812AE8200C2C465 /* TimerScreen.swift */,
+			);
+			path = Timer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,6 +367,7 @@
 			files = (
 				5414FE4D280B7265009DE57D /* Persistence.swift in Sources */,
 				5414FE50280B7265009DE57D /* TimerGame.xcdatamodeld in Sources */,
+				54F0D7002812AE8200C2C465 /* TimerScreen.swift in Sources */,
 				5414FE46280B7262009DE57D /* ContentView.swift in Sources */,
 				5414FE44280B7262009DE57D /* TimerGameApp.swift in Sources */,
 			);
