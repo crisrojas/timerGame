@@ -56,6 +56,15 @@
         }
       },
       {
+        "package": "SwiftUItilities",
+        "repositoryURL": "https://github.com/crisrojas/SwiftUItilities",
+        "state": {
+          "branch": null,
+          "revision": "4c17351a0513e959eb55ab21425f1364d8574113",
+          "version": "0.1.9"
+        }
+      },
+      {
         "package": "xctest-dynamic-overlay",
         "repositoryURL": "https://github.com/pointfreeco/xctest-dynamic-overlay",
         "state": {

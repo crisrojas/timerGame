@@ -21,6 +21,7 @@
 		54F0D6E92811DDAC00C2C465 /* Templates in Resources */ = {isa = PBXBuildFile; fileRef = 54F0D6E82811DDAC00C2C465 /* Templates */; };
 		54F0D6F42811E04D00C2C465 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54F0D6F62811E04D00C2C465 /* Localizable.strings */; };
 		54F0D6FA2812ACD300C2C465 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 54F0D6F92812ACD300C2C465 /* ComposableArchitecture */; };
+		54F0D6FD2812AD1000C2C465 /* SwiftUItilities in Frameworks */ = {isa = PBXBuildFile; productRef = 54F0D6FC2812AD1000C2C465 /* SwiftUItilities */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54F0D6FA2812ACD300C2C465 /* ComposableArchitecture in Frameworks */,
+				54F0D6FD2812AD1000C2C465 /* SwiftUItilities in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +210,7 @@
 			name = TimerGame;
 			packageProductDependencies = (
 				54F0D6F92812ACD300C2C465 /* ComposableArchitecture */,
+				54F0D6FC2812AD1000C2C465 /* SwiftUItilities */,
 			);
 			productName = TimerGame;
 			productReference = 5414FE40280B7262009DE57D /* TimerGame.app */;
@@ -283,6 +286,7 @@
 			mainGroup = 5414FE37280B7262009DE57D;
 			packageReferences = (
 				54F0D6F82812ACD300C2C465 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				54F0D6FB2812AD1000C2C465 /* XCRemoteSwiftPackageReference "SwiftUItilities" */,
 			);
 			productRefGroup = 5414FE41280B7262009DE57D /* Products */;
 			projectDirPath = "";
@@ -697,6 +701,14 @@
 				minimumVersion = 0.9.0;
 			};
 		};
+		54F0D6FB2812AD1000C2C465 /* XCRemoteSwiftPackageReference "SwiftUItilities" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/crisrojas/SwiftUItilities";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.9;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -704,6 +716,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 54F0D6F82812ACD300C2C465 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
 			productName = ComposableArchitecture;
+		};
+		54F0D6FC2812AD1000C2C465 /* SwiftUItilities */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 54F0D6FB2812AD1000C2C465 /* XCRemoteSwiftPackageReference "SwiftUItilities" */;
+			productName = SwiftUItilities;
 		};
 /* End XCSwiftPackageProductDependency section */
 
