@@ -20,6 +20,7 @@
 		5414FE7D280B82D7009DE57D /* Generated in Resources */ = {isa = PBXBuildFile; fileRef = 5414FE7C280B82D7009DE57D /* Generated */; };
 		54F0D6E92811DDAC00C2C465 /* Templates in Resources */ = {isa = PBXBuildFile; fileRef = 54F0D6E82811DDAC00C2C465 /* Templates */; };
 		54F0D6F42811E04D00C2C465 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54F0D6F62811E04D00C2C465 /* Localizable.strings */; };
+		54F0D6FA2812ACD300C2C465 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 54F0D6F92812ACD300C2C465 /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F0D6FA2812ACD300C2C465 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +206,9 @@
 			dependencies = (
 			);
 			name = TimerGame;
+			packageProductDependencies = (
+				54F0D6F92812ACD300C2C465 /* ComposableArchitecture */,
+			);
 			productName = TimerGame;
 			productReference = 5414FE40280B7262009DE57D /* TimerGame.app */;
 			productType = "com.apple.product-type.application";
@@ -276,6 +281,9 @@
 				Base,
 			);
 			mainGroup = 5414FE37280B7262009DE57D;
+			packageReferences = (
+				54F0D6F82812ACD300C2C465 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 5414FE41280B7262009DE57D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -679,6 +687,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		54F0D6F82812ACD300C2C465 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		54F0D6F92812ACD300C2C465 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 54F0D6F82812ACD300C2C465 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		5414FE4E280B7265009DE57D /* TimerGame.xcdatamodeld */ = {
